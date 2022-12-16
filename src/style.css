@@ -1,0 +1,65 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #344441;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #d2d4c8;
+  border-radius: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgb(210, 212, 200) 0%,
+    rgb(136, 150, 150) 100%
+  );
+  color: #f0f1ed;
+}
+h1 {
+  color: #5f7470;
+  font-family: "Nanum Gothic", sans-serif;
+}
+li {
+  list-style: none;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.units {
+  font-size: 15px;
+}
+
+#temperature {
+  font-size: 50px;
+}
+
+#celsius-link {
+  text-decoration: none;
+  color: #344441;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+  color: #344441;
+}
+
+#city-input {
+  text-align: center;
+  background-color: #f0f1ed;
+  border-radius: 10px;
+}
+
+#submit {
+  background-color: #f0f1ed;
+  border-radius: 0px;
+  color: #344441;
+  border-color: #f0f1ed;
+  border-radius: 10px;
+}
+
+#github {
+  color: #344441;
+}
